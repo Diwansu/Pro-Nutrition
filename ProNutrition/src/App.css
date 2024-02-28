@@ -1,0 +1,61 @@
+.flex {
+  display: flex;
+}
+
+.box {
+  margin: 2px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 440px;
+}
+
+.media {
+  display: flex;
+}
+
+.media-left {
+  margin-right: 10px;
+}
+
+.imageis-64x64 img {
+  width: 64px;
+  height: 64px;
+}
+
+.media-content {
+  flex: 1;
+}
+
+.fieldhas-addons {
+  display: flex;
+}
+
+.input {
+  flex: 1;
+  margin-top: 29px;
+}
+
+.buttonis-info {
+  background-color: #5bc0de;
+  color: #fff;
+  margin-top: 25px;
+  width: 26px;
+  height: 31px;
+}
+
+.button-reset {
+
+  margin-left: 10px;
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  height: 43px;
+  margin-top:23px;
+
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.button-reset:hover {
+  background-color: #c9302c;
+}
